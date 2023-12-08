@@ -1,0 +1,8 @@
+spring:
+  r2dbc:
+    name: webflux-example
+    password: 12345
+    url: r2dbc:postgresql://localhost:10000/webflux-example
+    username: postgres
+  cache:
+    type: redis
